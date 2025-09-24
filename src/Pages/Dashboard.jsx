@@ -1,8 +1,8 @@
 
 import React, { useEffect, useState } from "react";
 import { getUsers, addUser, updateUser, deleteUser } from "../Api/userApi";
-import UserList from "../components/UserList";
-import UserForm from "../components/UserForm";
+import UserList from  "../components/UserList";
+import UserForm from "../components/UserForm"
 
 const Dashboard = () => {
   const [users, setUsers] = useState([]);
